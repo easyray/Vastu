@@ -1,0 +1,1 @@
+gcc.exe -D__DEBUG__ -D_Seun_Debug_ -g -c -I C:/MinGW/include %1

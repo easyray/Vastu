@@ -1,0 +1,34 @@
+#include "resource.h" 
+
+IDI_APPICON ICON "appicon.ico"
+
+IDR_MAINMENU  MENU
+BEGIN
+  POPUP "&File"
+  BEGIN
+    MENUITEM "E&xit",IDM_EXIT
+  END
+  POPUP "Help"
+  BEGIN
+    MENUITEM "About",IDM_ABOUT
+  END
+END
+
+
+/*
+IDA_ACCEL_TABLE ACCELERATORS DISCARDABLE
+BEGIN
+   "a", IDA_ACTION_A, ALT          //Alt+A
+   "b", IDA_ACTION_B, CONTROL      //Ctrl+B
+   "c", IDA_ACTION_C, ALT, CONTROL //Alt+Ctrl+A
+END
+*/
+
+/*
+STRINGTABLE DISCARDABLE
+BEGIN
+   IDS_STRING1, "This is my first string"
+   IDS_STRING2, "This is my second string"
+   ...
+END
+*/
